@@ -1,10 +1,11 @@
-import { GeneratorEditor } from '~/components/flow-fields/generator';
+import { FlowFieldsEdtior } from '~/components/flow-fields';
 
-export default function Home() {
+
+export default function LinesPage() {
   return (
     <main className="flex flex-col items-center justify-between p-24">
       <div className="container">
-        <GeneratorEditor />
+        <FlowFieldsEdtior />
       </div>
     </main>
   )
